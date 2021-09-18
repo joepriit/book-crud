@@ -1,0 +1,17 @@
+footer {
+  font-size: 13px;
+
+  p {
+    color: #ffffff;
+  }
+
+  .nav-link,
+  .nav-link:hover,
+  .nav-link:focus {
+    color: #cccccc;
+
+    &.active {
+      color: #ffffff;
+    }
+  }
+}

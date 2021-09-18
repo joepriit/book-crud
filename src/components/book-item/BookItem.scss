@@ -1,0 +1,38 @@
+.book-item {
+  background: #101010;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  color: #ffffff;
+
+  .header {
+    background: #212529;
+    padding: 10px 20px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+
+    .name {
+      margin-bottom: 0;
+
+      .status {
+        font-size: 13px;
+      }
+    }
+
+    .btn {
+      background: transparent;
+      border: none;
+
+      &:after {
+        display: none;
+      }
+    }
+  }
+
+  .body {
+    padding: 20px;
+
+    p {
+      margin-bottom: 0;
+    }
+  }
+}

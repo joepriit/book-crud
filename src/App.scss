@@ -1,0 +1,8 @@
+.page-wrapper {
+  margin-top: calc(56px + 40px);
+
+  .content {
+    // Header + footer + margin-top
+    min-height: calc(100vh - 56px - 51px - 40px);
+  }
+}
